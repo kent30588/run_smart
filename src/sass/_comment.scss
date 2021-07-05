@@ -1,0 +1,32 @@
+.comment{
+	min-height: 920px;
+	&__wrapper{
+		display: flex;
+		margin-top: 60px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	&__images{
+		width: 169px;
+		height: 169px;
+		margin-right: 61px;
+	}
+	&__name{
+		color: #0D0D0D;
+		font-size: 18px;
+		font-weight: 700;
+		margin: 0;
+	}
+	span{
+		font-size: 14px;
+		font-weight: 500;
+		color: #646464;
+
+	}
+	p{
+		font-weight: 300;
+		color:#0D0D0D;
+		font-size: 16px;
+	}
+}

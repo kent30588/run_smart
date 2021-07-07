@@ -39,6 +39,17 @@
 	&-mini{
 		min-height: 143px;
 	}
+	.error {
+		border: 1px solid red;
+		text-align: center;
+	}
+	input.error{
+		text-align: left;
+	}
+	label.error{
+		border: none;
+		margin-bottom: 15px;
+	}
 }
 
 #consultation,
@@ -46,3 +57,4 @@
 #thanks {
 	display: none;
 }
+

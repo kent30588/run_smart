@@ -16,31 +16,48 @@
 		margin-bottom: 0;
 		padding-left: 0;
 	}
-	&__tab{
-		border: 2px solid #D0D0D0;
-		width: 220px;
-		height: 50px;
-		color: #6B6B6B;
-		font-size: 18px;
-		text-transform: uppercase;
-		text-align: center;
-		line-height: 48px;
+
+	.shine-button {
+		text-decoration: none;
+		display: inline-block;
+		padding: 10px 30px;
+		margin: 10px 20px;
+		position: relative;
+		overflow: hidden;
+		border: 2px solid $main-color;
+		border-radius: 8px;
+		font-family: 'Montserrat', sans-serif;
+		color: $main-color;
+		transition: .2s ease-in-out;
 		transform: skewX(-25deg);
-		margin: 0 5px;
+		text-transform: uppercase;
 		cursor: pointer;
-		transition: 0.5s all;
-		&:hover{
-			box-shadow: 3px 3px 20px $main-color;
-			border: none;
+		a{
+
+			display: block;
+		  	transform: skewX(25deg);
 		}
-		div{
-			transform: skewX(25deg);
-		}
-		&-active{
-			background-color: $main-color;
-			color: #fff;
-			border: none;
-		}
+	}
+
+	.shine-button:before {
+		content: "";
+		background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+		height: 50px;
+		width: 50px;
+		position: absolute;
+		top: -8px;
+		left: -75px;
+		transform: skewX(-45deg);
+	}
+
+	.shine-button:hover {
+		background: $main-color;
+		color: #fff;
+	}
+
+	.shine-button:hover:before {
+		left: 150px;
+		transition: .5s ease-in-out;
 	}
 	&__content{
 		margin-top: 60px;

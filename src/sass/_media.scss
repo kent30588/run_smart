@@ -1,0 +1,92 @@
+@media (max-width: 1200px){
+	.promo{
+		//padding: 21px 50px 93px 50px;
+		background: url(../img/main.jpg) 25% 75% / cover no-repeat;
+	}
+	.carousel {
+		&__inner {
+			width: 500px;
+			img{
+				width: 100%;
+			}
+		}
+	}
+	.footer{
+		height: 560px;
+			&__info{
+				width: 380px;
+				height: 250px;
+			}
+			iframe {
+			height: 100%;
+			}
+		}
+}
+
+@media (max-width: 991px) {
+	.header{
+		&__logo{
+			width: 200px;
+		}
+		&__official{
+			margin-right: 50px;
+		}
+	}
+	.promo{
+		min-height: 584px;
+		&__wrapper{
+			margin-top: 40px;
+		}
+		&__header{
+			font-size: 34px;
+		}
+		&__subheader{
+			font-size: 20px;
+			margin-top: 9px;
+		}
+		&__icons{
+			margin-top: 40px;
+			width: 450px;
+		}
+		.button-main{
+			margin-top: 60px;
+		}
+	}
+
+	.advantage__wrappers{
+		width: 776px;
+	}
+
+
+
+
+
+	.promo {
+		padding: 21px 50px 93px 50px;
+		background: url(../img/main.jpg) 30% 75% / cover no-repeat;
+		//background-position: 25% 75%;
+	}
+
+	.carousel {
+		&__inner {
+			width: 500px;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	.footer {
+		height: 560px;
+
+		&__info {
+			width: 380px;
+			height: 250px;
+		}
+
+		iframe {
+			height: 100%;
+		}
+	}
+}

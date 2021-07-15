@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/slick.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
@@ -71,7 +75,7 @@
             >
           </div>
           <div class="advantage__wrapper">
-            <img src="icons/heart.png" alt="heart" />
+            <img class="advantage__heart" src="icons/heart.png" alt="heart" />
             <h3 class="advantage__title">Заботимся о здоровье</h3>
             <span class="advantage__text"
               >Мы работаем для того, чтобы Ваши занятия спортом шли на пользу
@@ -116,7 +120,7 @@
       </div>
     </section>
     <!-- /.consultation -->
-    <section class="carousel">
+    <div class="carousel">
       <div class="container">
         <div class="carousel__inner">
           <div><img src="img/slide1.jpg" alt="slide1" /></div>
@@ -124,7 +128,7 @@
           <div><img src="img/slide3.jpg" alt="slide3" /></div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- /.carousel -->
     <section class="catalog">
       <div class="container">
@@ -137,7 +141,11 @@
           <li class="shine-button"><a>для триатлона</a></li>
         </ul>
         <div class="catalog__content catalog__content-active">
-          <div class="catalog-item">
+          <div
+            class="catalog-item animate__animated animate__fadeInUp wow"
+            data-wow-duration="1s"
+            data-wow-delay="0.5s"
+          >
             <div class="catalog-item__wrapper">
               <div class="catalog-item__content catalog-item__content-active">
                 <img class="catalog-item__img" src="img/puls.jpg" alt="puls" />
@@ -172,7 +180,11 @@
               <button class="button button-mini">КУПИТЬ</button>
             </div>
           </div>
-          <div class="catalog-item">
+          <div
+            class="catalog-item animate__animated animate__fadeInUp wow"
+            data-wow-duration="1.1s"
+            data-wow-delay="0.5s"
+          >
             <div class="catalog-item__wrapper">
               <div class="catalog-item__content catalog-item__content-active">
                 <img class="catalog-item__img" src="img/puls.jpg" alt="puls" />
@@ -207,7 +219,11 @@
               <button class="button button-mini">КУПИТЬ</button>
             </div>
           </div>
-          <div class="catalog-item">
+          <div
+            class="catalog-item animate__animated animate__fadeInUp wow"
+            data-wow-duration="1.2s"
+            data-wow-delay="0.5s"
+          >
             <div class="catalog-item__wrapper">
               <div class="catalog-item__content catalog-item__content-active">
                 <img class="catalog-item__img" src="img/puls.jpg" alt="puls" />
@@ -242,7 +258,11 @@
               <button class="button button-mini">КУПИТЬ</button>
             </div>
           </div>
-          <div class="catalog-item">
+          <div
+            class="catalog-item animate__animated animate__fadeInUp wow"
+            data-wow-duration="1.3s"
+            data-wow-delay="0.5s"
+          >
             <div class="catalog-item__wrapper">
               <div class="catalog-item__content catalog-item__content-active">
                 <img class="catalog-item__img" src="img/puls.jpg" alt="puls" />
@@ -277,7 +297,11 @@
               <button class="button button-mini">КУПИТЬ</button>
             </div>
           </div>
-          <div class="catalog-item">
+          <div
+            class="catalog-item animate__animated animate__fadeInUp wow"
+            data-wow-duration="1.4s"
+            data-wow-delay="0.5s"
+          >
             <div class="catalog-item__wrapper">
               <div class="catalog-item__content catalog-item__content-active">
                 <img class="catalog-item__img" src="img/puls.jpg" alt="puls" />
@@ -312,7 +336,11 @@
               <button class="button button-mini">КУПИТЬ</button>
             </div>
           </div>
-          <div class="catalog-item">
+          <div
+            class="catalog-item animate__animated animate__fadeInUp wow"
+            data-wow-duration="1.5s"
+            data-wow-delay="0.5s"
+          >
             <div class="catalog-item__wrapper">
               <div class="catalog-item__content catalog-item__content-active">
                 <img class="catalog-item__img" src="img/puls.jpg" alt="puls" />
@@ -463,7 +491,11 @@
     <div class="comment">
       <div class="container">
         <h2 class="title">отзывы клиентов</h2>
-        <div class="comment__wrapper">
+        <div
+          class="comment__wrapper animate__animated animate__fadeInUp wow"
+          data-wow-duration="2s"
+          data-wow-delay="0.5s"
+        >
           <img class="comment__images" src="img/photo_1.png" alt="" />
           <div class="comment__text">
             <h3 class="comment__name">Ирина Иванченко</h3>
@@ -480,7 +512,11 @@
             </p>
           </div>
         </div>
-        <div class="comment__wrapper">
+        <div
+          class="comment__wrapper animate__animated animate__fadeInUp wow"
+          data-wow-duration="4s"
+          data-wow-delay="0.8s"
+        >
           <img class="comment__images" src="img/photo_2.png" alt="" />
           <div class="comment__text">
             <h3 class="comment__name">Иван Сёмочкин</h3>
@@ -498,7 +534,11 @@
             </p>
           </div>
         </div>
-        <div class="comment__wrapper">
+        <div
+          class="comment__wrapper animate__animated animate__fadeInUp wow"
+          data-wow-duration="3s"
+          data-wow-delay="0.8s"
+        >
           <img class="comment__images" src="img/photo_3.png" alt="" />
           <div class="comment__text">
             <h3 class="comment__name">Юлия Дашкина</h3>
@@ -524,14 +564,11 @@
     <footer class="footer">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4488.9273299944225!2d37.64620742892563!3d55.76781859616311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCAxMDcwNzg!5e0!3m2!1sru!2sru!4v1625555285917!5m2!1sru!2sru"
-        width="100%"
-        height="630"
-        style="border: 0"
         allowfullscreen=""
         loading="lazy"
       ></iframe>
       <div class="footer__info">
-        <addres class="footer__adress">Москва, Мясницкий проезд, д.3с1</addres>
+        <div class="footer__adress">Москва, Мясницкий проезд, д.3с1</div>
         <a class="footer__phone" href="tel:+74999228974">8 (499) 922-89-74</a>
         <div class="footer__social">
           <a
@@ -589,17 +626,12 @@
     <a class="pageup" href="#up">
       <img src="icons/chevron.svg" alt="up" />
     </a>
-    <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-1.11.0.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
-    ></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

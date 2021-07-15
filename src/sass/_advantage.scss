@@ -36,4 +36,10 @@
 		text-transform: uppercase;
 		color: red;
 	}
+	&__heart{
+			//animation-name: heartbeat;
+			//animation-duration: 2s;
+		animation: heartbeat 1.5s infinite;
+		animation-timing-function: ease;
+	}
 }

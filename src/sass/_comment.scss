@@ -1,6 +1,7 @@
 .comment{
 	min-height: 920px;
 	&__wrapper{
+		display: inline-block;
 		display: flex;
 		margin-top: 60px;
 		&:last-child{

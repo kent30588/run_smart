@@ -202,3 +202,182 @@
         }
     }
 }
+
+@media (max-width: 575px) {
+	.header {
+		&__logo {
+			img {
+				width: 90%;
+			}
+		}
+
+		&__official {
+			margin-right: 8px;
+
+			span {
+				font-size: 8px;
+			}
+		}
+
+		&__phone {
+			font-size: 10px;
+			margin-bottom: 5px;
+		}
+		.button{
+			width: 90px;
+			font-size: 8px;
+		}
+	}
+
+	.promo {
+		padding: 15px 12px 30px 12px;
+		min-height: 530px;
+		&__wrapper{
+			margin-top: 26px;
+		}
+
+		&__header {
+			font-size: 26px;
+		}
+
+		&__subheader {
+			font-size: 15px;
+		}
+
+		&__icons{
+			width: 100%;
+		}
+		.button-main{
+			margin: 0 right;
+			margin-top: 40px;
+			width: 245px;
+		}
+	}
+
+	.advantage {
+		padding: 35px 0;
+		.title{
+			font-size: 24px;
+		}
+	}
+
+	.consultation {
+		padding: 35px 5px 35px 5px;
+		min-height: 550px;
+		.title__left {
+			font-size: 20px;
+			line-height: 30px;
+		}
+		&__descr {
+			font-size: 15px;
+			line-height: 27px;
+		}
+	}
+
+	.carousel {
+		display: block;
+		//display: none;
+	}
+
+	.catalog {
+		padding: 0 10px;
+
+		&__title {
+			font-size: 24px;
+			font-weight: 700;
+			padding-top: 20px;
+		}
+
+		&__tabs {
+			margin-top: 20px;
+
+		}
+
+		.shine-button {
+			font-size: 10px;
+			padding: 5px 5px;
+			font-weight: 500;
+			margin: 10px 8px;
+		}
+
+		&-item {
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+		&__content{
+			margin: 25px 0;
+			padding: 0 10px;
+		}
+	}
+
+	.comment {
+		padding:0 10px;
+		margin-bottom: 30px;
+		.title{
+			font-size: 25px;
+		}
+		&__wrapper {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 40px;
+		}
+
+		&__images {
+			width: 100px;
+			height: 100px;
+			margin: 0 auto;
+		}
+
+		&__name {
+			margin-top: 10px;
+			font-size: 15px;
+			text-align: center;
+		}
+		&__text{
+			span {
+				display: block;
+				text-align: center;
+			}
+		}
+
+		p {
+			font-size: 12px;
+		}
+	}
+
+	.modal{
+		width: 280px;
+		padding: 15px;
+		&__subtitle{
+			font-size: 15px;
+		}
+		&__close{
+			right: 0px;
+			font-size: 27px;
+		}
+	}
+	.feed-form{
+		width: 250px;
+		input{
+			width: 250px;
+		}
+	}
+	.carousel{
+		padding: 30px 0;
+	}
+	.slick-list{
+		width: 170px;
+	}
+	.carousel__inner{
+		width: 170px;
+		img{
+			width: 100%;
+		}
+	}
+	.carousel .slick-next img,
+	.carousel .slick-prev img{
+		width: 13px;
+	}
+
+}

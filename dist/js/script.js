@@ -13,6 +13,14 @@ $(document).ready(function () {
 				settings: {
 					dots: false,
 					arrows: true,
+					dotsClass: 'slick-dots',
+				},
+			},
+			{
+				breakpoint: 575,
+				settings: {
+					dots: false,
+					arrows: true,
 					dotsClass: 'slick-dots'
 				}
 			},

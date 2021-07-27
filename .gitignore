@@ -2,8 +2,9 @@
 
 # dependencies
 /node_modules
-/dist
+/src
 /src/mailer
+/dist/mailer
 
 # testing
 /coverage

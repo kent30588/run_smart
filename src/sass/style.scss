@@ -1,12 +1,15 @@
-
-*{
-	font-family: "Museo Sans", sans-serif;
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/slick';
+* {
+    font-family: "Museo Sans", sans-serif;
 }
 
-.container{
-	max-width: 950px;
-	margin: 0 auto;
+.container {
+    max-width: 950px;
+    margin: 0 auto;
 }
+
 @import 'variables';
 @import 'animations';
 @import 'header';

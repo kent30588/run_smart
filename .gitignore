@@ -2,8 +2,13 @@
 
 # dependencies
 /node_modules
+<<<<<<< HEAD
 
+=======
+/src
+>>>>>>> 86022e3ba1d2a0db8eb578d6891f30ba1c9d4f15
 /src/mailer
+/dist/mailer
 
 # testing
 /coverage
